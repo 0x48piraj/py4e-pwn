@@ -20,6 +20,10 @@ py4e-pwn system has attack capabilities written for py4e auto-grader. Using chro
 
 Unfortunately, there's a `window.CHECKS` function which holds an array with essential checks that are made during the grading process. To attack this, our chrome extension grabs the constraints, extracts data, understands the checks, and builds a payload (python-code) that evades the py4e-auto-grader.
 
+## Versions
+
+* Throws out instructions to craft the payload *(master branch)*
+* Returns ready-made python-code *(dev branch)*
 
 ## Installation
 
