@@ -2,7 +2,11 @@
 
 > Gaming the py4e (Python for Everybody) platform developed by Charles Severance (csev)
 
-<POC demo>
+## Demo
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=U8LDiWQKgmA"><img src="https://img.youtube.com/vi/U8LDiWQKgmA/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
 
 ## Disclaimer
 
