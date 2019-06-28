@@ -2,10 +2,37 @@
 
 > Gaming the py4e (Python for Everybody) platform developed by Charles Severance (csev)
 
+#### UPDATE (Jun 27, 2019)
+
+> *(Charles Severance replied to this incident)*
+> 
+> **Charles :** This has been a feature of this auto-grading software from the beginning.  You will notice how I conveniently keep debugging messages in the console to help guide you to where this is happening.  If you can dig through 500 lines of JavaScript to find and use this exploit - you can write a 10 line Python program.  You are neither clever nor creative in this pwn.  I would suggest you just take this video down.
+> 
+> **Me :** It's true, I know this is a well intended feature. It's not a creative pwn. I agree on all these points. But I think, you could have done these checks on server side, thus protecting the sensitive arguments. What do you think ?
+> 
+> **Me :** Sorry if my intentions seemed malicious, this video was supposed to be educational. I was at your talk at Techfest, IIT Bombay, last year. I was intrigued and inspired by your initiatives. About, how you goto your offices situated at various locations, how you help students like us. Sorry if it made you uncomfortable.
+> 
+> **Charles :** **@0x48piraj**, It does not make me uncomfortable.  I agree that it is somewhat of educational.  My reaction was that you present your video as if you found something significant from a security perspective which is an overstatement.
+> 
+> **Charles :** **@0x48piraj**, The reason this is all done client side is that there would be far more security vulnerabilities to worry about running student code in my server.  Instead of building a server-side solution and then forever worrying about my servers being compromised, I chose a client side solution which if examined closely, could bypass my checking but insured that the Python code would only harm the end-user's browser.  These courses are for those who want to learn Python so the stakes are low - it is a much higher priority for me to provide a good learning experience than to create an impenetrable assessment engine.  If a school is using my auto-graders for anything other than a formative assessment it is a mistake.
+>
+> **Me :** **@Charles Severance**, Not meant to pose this as a significant security vulnerability, as it obviously isn't. And, now, I completely understood the reason behind it. Thanks a lot for clearing out and replying to the video :)
+
+
+
+
+
+
+
+
+
+> #### Reference : [YouTube](https://www.youtube.com/watch?v=U8LDiWQKgmA&lc=z23rud0j1vf5cfjjl04t1aokghnx4ej54vlqfv2msevwbk0h00410.1561564060558510)
+> 
+
 ## Demo
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=U8LDiWQKgmA"><img src="https://img.youtube.com/vi/U8LDiWQKgmA/0.jpg" alt="IMAGE ALT TEXT"></a>
+  <a target="_blank" href="https://www.youtube.com/watch?v=U8LDiWQKgmA"><img src="https://img.youtube.com/vi/U8LDiWQKgmA/0.jpg" alt="py4e-pwn : Pwning Python for Everybody Auto-Grader / Grading System"></a>
 </div>
 
 ## Disclaimer
