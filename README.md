@@ -74,3 +74,7 @@ Then, to kick off the PoC:
 * Hit "pwn this!"
 
 This loads the scripts, interacts with the page to grab data, generates python code, and then displays it over Console. Once the code is generated, you can copy-paste it to pass the test.
+
+## Status
+
+This is a proof-of-concept. It is not written particularly well or maintainable. I am not particularly interested in making it weaponized. I may accept PRs if they are useful or instructive or fix obvious bugs.
